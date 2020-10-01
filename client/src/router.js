@@ -53,9 +53,9 @@ const routes = new Router({
       path: '/chat/:chat_id',
       component: Chat,
       props: true,
-      meta: {
-        requiresAuth: true
-      }
+      // meta: {
+      //   requiresAuth: true
+      // }
     }
   ],
   mode: 'history'
